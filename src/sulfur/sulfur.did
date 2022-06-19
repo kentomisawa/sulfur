@@ -1,3 +1,9 @@
 service : {
     "greet": (text) -> (text) query;
+    "create_account": (text, text) -> ();
+    "create_regulation": (text, text, text) -> ();
+    "create_verification": (text, text, bool, text, text, text) -> ();
+    "get_account": (text) -> (record { name: text; verifications: vec text; edges: vec record { to: text; labels: vec text } });
+    "get_regulation": (text) -> (record { name: text; owner: text; edges: vec record { to: text; labels: vec text } });
+    "get_verification": (text) -> (record { name: text; verified: bool; verifier: text; regulation: text; edges: vec record { to: text; labels: vec text } });
 }
