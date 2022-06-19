@@ -16,7 +16,7 @@ dfx deploy
 
 Once the job completes, your application will be available at `http://localhost:8000?canisterId={asset_canister_id}`.
 
-## How it work
+## How it works
 
 Anyone can create rules and anyone can verify anything they want to. It's up to users to access which jurisdiction of what rules of who verifies who complies. Because this real world is very complicated; decentralized compliance networks must be lightweight.
 
