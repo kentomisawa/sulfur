@@ -1,26 +1,6 @@
-# sulfur
+# Sulfur Network
 
-Welcome to your new sulfur project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
-
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
-
-To learn more before you start working with sulfur, see the following documentation available online:
-
-- [Quick Start](https://smartcontracts.org/docs/quickstart/quickstart-intro.html)
-- [SDK Developer Tools](https://smartcontracts.org/docs/developers-guide/sdk-guide.html)
-- [Rust Canister Devlopment Guide](https://smartcontracts.org/docs/rust-guide/rust-intro.html)
-- [ic-cdk](https://docs.rs/ic-cdk)
-- [ic-cdk-macros](https://docs.rs/ic-cdk-macros)
-- [Candid Introduction](https://smartcontracts.org/docs/candid-guide/candid-intro.html)
-- [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.ic0.app)
-
-If you want to start working on your project right away, you might want to try the following commands:
-
-```bash
-cd sulfur/
-dfx help
-dfx config --help
-```
+Sulfur Network is a compliance and verification state sharing network. Anyone can create rules and anyone can verify. It is very hard to define the standard interface for compliance because of its variety of forms, so Sulfur Network stores legal states for users to refer to easier.
 
 ## Running the project locally
 
@@ -35,3 +15,19 @@ dfx deploy
 ```
 
 Once the job completes, your application will be available at `http://localhost:8000?canisterId={asset_canister_id}`.
+
+## How it work
+
+Anyone can create rules and anyone can verify anything they want to. It's up to users to access which jurisdiction of what rules of who verifies who complies. Because this real world is very complicated; decentralized compliance networks must be lightweight.
+
+### Verifiers
+
+Verifiers might be regulated organizations or users who manage a community. They verify who follows what compliance.
+
+### Compliance
+
+Regulations belong to a jurisdiction. Rules might be related to others. They can have relation edges to express relations.
+
+### Users
+
+Users can share the states of regulations. VASPs (Virtual Asset Service Providers) are often regulated, but they can reduce management costs by sharing the states.
