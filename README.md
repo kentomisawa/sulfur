@@ -1,3 +1,4 @@
 # Sulfur Network
 
-WIP
+WIP  
+notes: pyramid scheme without profits
